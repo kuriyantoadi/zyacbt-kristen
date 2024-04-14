@@ -23,7 +23,18 @@
             <!-- Horizontal Form -->
             <div class="box box-default">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Login Operator</h3>
+                    <center>
+                    <h3 style="animation: blink-animation 2s infinite;  font-size: 18px;" class="box-title">Login Operator (Khusus Ujian Agama Kristen)</h3>
+
+                    </center>
+
+					<style>
+					@keyframes blink-animation {
+						0% { opacity: 1; }
+						50% { opacity: 0; }
+						100% { opacity: 1; }
+					}
+					</style>
                 </div><!-- /.box-header -->
                 <!-- form start -->
                 <?php echo form_open('welcome/login','id="form-login" class="form-horizontal"')?>
